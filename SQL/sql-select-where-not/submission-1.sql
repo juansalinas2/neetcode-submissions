@@ -15,8 +15,8 @@ INSERT INTO athletes (name, sport) VALUES
   ('Usain Bolt', 'Track and Field');
 -- Do not modify above this line. --
 
-SELECT name , sport FROM athletes
-WHERE sport = 'Basketball';
+SELECT name FROM athletes
+WHERE sport != 'Basketball';
 
 
 
